@@ -1,25 +1,150 @@
 {
-  "items": [
-    { "id": 1, "listId": 1, "title": "Washing pods", "quantity": 1, "price": 6.99 },
-    { "id": 2, "listId": 1, "title": "Rice", "quantity": 1, "price": 0.99 }
-  ],
-  "lists": [
-    { "id": 1, "title": "Daily"},
-    { "id": 2, "title": "Special" }
-  ],
-  "reviews": [
-    { "id": 1, "hotelId": 1, "title": "Best holiday ever", "description": "Donec a nisi in mi pellentesque placerat vel eu leo. Nulla facilisi. Duis dui nulla, ornare sed efficitur vitae, aliquam vel tortor. Nunc porta varius ex. Donec id porta lacus, ac facilisis nulla. Proin sed felis nec tellus dictum commodo nec quis lorem. Nam ultrices, risus ut maximus ullamcorper, elit tellus tincidunt tortor, eu euismod turpis ipsum et leo.", "rating": 5 },
-    { "id": 2, "hotelId": 1, "title": "Very clean", "description": "Duis blandit, dolor sed posuere sodales, diam lorem tempor libero, at vestibulum turpis nisl porttitor enim. Cras accumsan felis orci, a sagittis lectus porta ut.", "rating": 4 }
-  ],
-  "hotels": [
-    { "id": 1, "title": "Beachfront Hotel (***)", "thumbnail": "assets/beachfront-hotel.jpg" },
-    { "id": 2, "title": "Forest Apartments (**)", "thumbnail": "assets/forest-apartments.jpg" }
-  ],
-  "listings": [
-    { "id": 1, "title": "Canalside house", "thumbnail": "https://picsum.photos/id/164/400/400", "price": "$350,000" },
-    { "id": 2, "title": "Old center townhouse", "thumbnail": "https://picsum.photos/id/405/400/400", "price": "$800,000" },
-    { "id": 3, "title": "Centrally located appartment", "thumbnail": "https://picsum.photos/id/1065/400/400", "price": "$280,000" },
-    { "id": 4, "title": "Downtown apartment", "thumbnail": "https://picsum.photos/id/1076/400/400", "price": "$1,200,000" },
-    { "id": 5, "title": "Fairytale castle", "thumbnail": "https://picsum.photos/id/1040/400/400", "price": "$5,000,000" }
-  ]
+    "hotels": [
+        {
+            "id": 1,
+            "thumbnail": "assets/beachfront-hotel.jpg",
+            "title": "Beachfront Hotel (***)"
+        },
+        {
+            "id": 2,
+            "thumbnail": "assets/forest-apartments.jpg",
+            "title": "Forest Apartments (**)"
+        }
+    ],
+    "items": [
+        {
+            "id": 1,
+            "listId": 1,
+            "price": 6.99,
+            "quantity": 1,
+            "title": "Washing pods"
+        },
+        {
+            "id": 2,
+            "listId": 1,
+            "price": 0.99,
+            "quantity": 1,
+            "title": "Rice"
+        }
+    ],
+    "listings": [
+        {
+            "id": 1,
+            "price": "$350,000",
+            "thumbnail": "https://picsum.photos/id/164/400/400",
+            "title": "Canalside house"
+        },
+        {
+            "id": 2,
+            "price": "$800,000",
+            "thumbnail": "https://picsum.photos/id/405/400/400",
+            "title": "Old center townhouse"
+        },
+        {
+            "id": 3,
+            "price": "$280,000",
+            "thumbnail": "https://picsum.photos/id/1065/400/400",
+            "title": "Centrally located appartment"
+        },
+        {
+            "id": 4,
+            "price": "$1,200,000",
+            "thumbnail": "https://picsum.photos/id/1076/400/400",
+            "title": "Downtown apartment"
+        },
+        {
+            "id": 5,
+            "price": "$5,000,000",
+            "thumbnail": "https://picsum.photos/id/1040/400/400",
+            "title": "Fairytale castle"
+        }
+    ],
+    "lists": [
+        {
+            "id": 1,
+            "title": "Daily"
+        },
+        {
+            "id": 2,
+            "title": "Special"
+        }
+    ],
+    "movies": [
+        {
+            "amount": "$2,787,965,087",
+            "distributor": "20th Century Fox",
+            "id": 1,
+            "img": {
+                "alt": "avatar",
+                "src": "media/avatar.jpg"
+            },
+            "ranking": 1,
+            "title": "Avatar",
+            "year": 2009
+        },
+        {
+            "amount": "$2,187,463,944",
+            "distributor": "20th Century Fox",
+            "id": 2,
+            "img": {
+                "alt": "titanic",
+                "src": "media/titanic.jpg"
+            },
+            "ranking": 2,
+            "title": "Titanic",
+            "year": 1997
+        },
+        {
+            "amount": "$2,068,223,624",
+            "distributor": "Walt Disney Studios Motion Pictures",
+            "id": 3,
+            "img": {
+                "alt": "star_wars_the_force_awakens",
+                "src": "media/star_wars_the_force_awakens.jpg"
+            },
+            "ranking": 3,
+            "title": "Star Wars: The Force Awakens",
+            "year": 2015
+        },
+        {
+            "amount": "$2,048,359,754",
+            "distributor": "Walt Disney Studios Motion Pictures",
+            "id": 4,
+            "img": {
+                "alt": "avengers_infinity_war",
+                "src": "media/avengers_infinity_war.jpg"
+            },
+            "ranking": 4,
+            "title": "Avengers: Infinity War",
+            "year": 2018
+        },
+        {
+            "amount": "$1,671,713,208",
+            "distributor": "Universal Pictures",
+            "id": 5,
+            "img": {
+                "alt": "jurassic_world",
+                "src": "media/jurassic_world.jpg"
+            },
+            "ranking": 5,
+            "title": "Jurassic World",
+            "year": 2015
+        }
+    ],
+    "reviews": [
+        {
+            "description": "Donec a nisi in mi pellentesque placerat vel eu leo. Nulla facilisi. Duis dui nulla, ornare sed efficitur vitae, aliquam vel tortor. Nunc porta varius ex. Donec id porta lacus, ac facilisis nulla. Proin sed felis nec tellus dictum commodo nec quis lorem. Nam ultrices, risus ut maximus ullamcorper, elit tellus tincidunt tortor, eu euismod turpis ipsum et leo.",
+            "hotelId": 1,
+            "id": 1,
+            "rating": 5,
+            "title": "Best holiday ever"
+        },
+        {
+            "description": "Duis blandit, dolor sed posuere sodales, diam lorem tempor libero, at vestibulum turpis nisl porttitor enim. Cras accumsan felis orci, a sagittis lectus porta ut.",
+            "hotelId": 1,
+            "id": 2,
+            "rating": 4,
+            "title": "Very clean"
+        }
+    ]
 }
